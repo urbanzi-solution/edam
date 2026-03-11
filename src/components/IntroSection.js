@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function IntroSection() {
   return (
-    <section className="bg-[#f7f1ea] ">
+    <section className="bg-[#f7f1ea] -mt-32">
       <div className="max-w-7xl mx-auto px-6 py-32">
         <div className="max-w-3xl">
 

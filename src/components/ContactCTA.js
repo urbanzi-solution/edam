@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function ContactCTA() {
   return (
-    <section className="bg-[#f6f1ea] py-24">
+    <section className="bg-[#f6f1ea] py-24 -mt-25">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 overflow-hidden">
 
