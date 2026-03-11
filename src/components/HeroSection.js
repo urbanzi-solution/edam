@@ -36,7 +36,7 @@ export default function HeroSection() {
               duration: 1,
               ease: "easeOut",
             }}
-            className="text-5xl md:text-7xl font-light tracking-wide"
+            className="text-5xl md:text-7xl font-light tracking-wide mt-15"
           >
             LIGHT.{" "}
             <span className="text-[#d6c39a]">
@@ -49,7 +49,7 @@ export default function HeroSection() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="mt-6 text-gray-300 text-sm leading-relaxed"
+            className="mt-6 text-gray-300 text-sm leading-relaxed "
           >
             PHOTOREALISTIC VISUALIZATIONS THAT SHOWCASE
             YOUR IDEAS BEFORE THEY REBUILD

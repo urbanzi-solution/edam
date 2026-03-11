@@ -44,7 +44,7 @@ export default function OurProjects() {
   }, []);
 
   return (
-    <section className="bg-black py-20 md:py-32 text-white relative overflow-hidden">
+    <section className="bg-black py-20 md:py-32 text-white relative overflow-hidden -mt-30">
       
       <h2 className="text-center text-4xl md:text-6xl font-light tracking-widest mb-14 md:mb-20">
         <span className="text-[#d6c29f]">OUR</span> PROJECTS

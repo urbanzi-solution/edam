@@ -15,7 +15,7 @@ const upVariant = {
 
 export default function WhoAreWe() {
   return (
-    <section className="mt-20 relative bg-black py-32 overflow-hidden">
+    <section className=" relative bg-black py-32 overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-6 md:px-10 relative">
 
         {/* MOBILE STACK | DESKTOP ORIGINAL */}

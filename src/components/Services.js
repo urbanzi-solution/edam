@@ -9,7 +9,7 @@ import {
 
 export default function Services() {
   return (
-    <section className="bg-black py-20 md:py-32 text-white">
+    <section className="bg-black py-20 md:py-32 text-white -mt-30">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* TITLE ABOVE GRID */}

@@ -7,14 +7,14 @@ import {
 
 export default function HowItWorks() {
   return (
-    <section className="relative w-full py-32 bg-black text-white">
+    <section className="relative w-full py-32 bg-black text-white -mt-35">
       
       <h2 className="text-center text-5xl md:text-6xl font-light tracking-widest mb-24">
         HOW IT <span className="text-[#d6c29f]">WORKS</span>
       </h2>
 
      
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-20 px-6">
+      <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
 
         
         <Step
