@@ -70,7 +70,7 @@ export default function MEPServicesPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/mep-plumbing.jpg"
+            src="/plumbing.jpg"
             alt="Plumbing and sanitary coordination"
             fill
             className="object-cover"
@@ -112,7 +112,7 @@ export default function MEPServicesPage() {
       
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/mep-systems.jpg"
+            src="/mep.jpg"
             alt="Integrated MEP systems"
             fill
             className="object-cover"

@@ -72,7 +72,7 @@ export default function ConstructionPage() {
         {/* IMAGE 1 */}
         <div className="relative w-full h-[260px] md:h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/supervision.jpg"
+            src="/so.jpg"
             alt="Interior site supervision"
             fill
             className="object-cover"
@@ -125,7 +125,7 @@ export default function ConstructionPage() {
         {/* IMAGE 2 */}
         <div className="relative w-full h-[260px] md:h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/coordination.jpg"
+            src="/co.jpg"
             alt="Construction coordination process"
             fill
             className="object-cover"

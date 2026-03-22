@@ -11,7 +11,7 @@ export default function Footer() {
 
       
         <div>
-          <h2 className="text-3xl font-light tracking-wide">
+          <h2 className="text-3xl font-extrabold tracking-wide">
             <span className="text-[#d6b98c]">EDAM</span> 
           </h2>
           <p className="text-sm text-white/60 mt-4 leading-relaxed">

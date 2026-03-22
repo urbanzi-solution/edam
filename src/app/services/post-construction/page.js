@@ -60,7 +60,7 @@ export default function PostConstructionSupportPage() {
        
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/mep-plumbing.jpg"
+            src="/011.jpg"
             alt="Final inspection and snag resolution"
             fill
             className="object-cover"
@@ -91,7 +91,7 @@ export default function PostConstructionSupportPage() {
 
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/mep-systems.jpg"
+            src="/systems.jpg"
             alt="Interior aftercare and maintenance guidance"
             fill
             className="object-cover"

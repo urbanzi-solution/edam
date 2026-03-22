@@ -14,12 +14,13 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-white font-semibold text-xl"
-          >
-            EDAM
-          </Link>
+          <div
+        onClick={() => scrollToSection("home")}
+        className="flex items-center gap-2 cursor-pointer"
+      >
+        <div className="w-10 h-5 bg-amber-100 skew-x-[-20deg]" />
+        <h1 className="text-white text-2xl font-bold">EDAM</h1>
+      </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex gap-10 text-sm text-gray-300">

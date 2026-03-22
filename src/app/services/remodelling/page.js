@@ -70,7 +70,7 @@ export default function RemodellingPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior1.jpg"
+            src="/interior04.jpg"
             alt="Interior space reconfiguration"
             fill
             className="object-cover"
@@ -102,7 +102,7 @@ export default function RemodellingPage() {
       
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior2.jpg"
+            src="/interior03.jpg"
             alt="Carefully executed interior remodelling"
             fill
             className="object-cover"

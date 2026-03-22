@@ -73,7 +73,7 @@ export default function RenovationPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior1.jpg"
+            src="/interior01.jpg"
             alt="Interior renovation upgrades"
             fill
             className="object-cover"
@@ -110,7 +110,7 @@ export default function RenovationPage() {
        
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior2.jpg"
+            src="/interior02.jpg"
             alt="Thoughtful interior renovation"
             fill
             className="object-cover"
