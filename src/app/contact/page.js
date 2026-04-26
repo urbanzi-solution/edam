@@ -103,8 +103,7 @@ export default function ContactPage() {
           <ContactDetail
             icon={<MapPinIcon className="w-6 h-6" />}
             title="Address"
-            text="Vattiyoorkkav Puliyarakkonam Rd,
-             Puliyarakonam, Vilappil, Kerala 695573"
+            text="Vattiyoorkkav Puliyarakkonam Rd,Puliyarakonam, Vilappil, Kerala 695573"
           />
 
         </div>
