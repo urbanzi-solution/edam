@@ -54,15 +54,15 @@ export default function Footer() {
           <ul className="space-y-4 text-sm text-white/60">
             <li className="flex items-center gap-3">
               <EnvelopeIcon className="w-4 h-4" />
-              hello@atmostudio.com
+               edamdesignstudio.eds@gmail.com
             </li>
             <li className="flex items-center gap-3">
               <PhoneIcon className="w-4 h-4" />
-              +1400 8000 0000
+              +91 9188330605
             </li>
             <li className="flex items-center gap-3">
               <MapPinIcon className="w-4 h-4" />
-              India
+             Vattiyoorkkav Puliyarakkonam Rd, Puliyarakonam, Vilappil, Kerala 695573
             </li>
           </ul>
         </div>

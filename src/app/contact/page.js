@@ -91,19 +91,20 @@ export default function ContactPage() {
           <ContactDetail
             icon={<PhoneIcon className="w-6 h-6" />}
             title="Phone"
-            text="+91 98765 43210"
+            text="+91 9188330605"
           />
 
           <ContactDetail
             icon={<EnvelopeIcon className="w-6 h-6" />}
             title="Email"
-            text="edam@gmail.com"
+            text=" edamdesignstudio.eds@gmail.com"
           />
 
           <ContactDetail
             icon={<MapPinIcon className="w-6 h-6" />}
             title="Address"
-            text="Trivandrum, Kerala, India"
+            text="Vattiyoorkkav Puliyarakkonam Rd,
+             Puliyarakonam, Vilappil, Kerala 695573"
           />
 
         </div>
