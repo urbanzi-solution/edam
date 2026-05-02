@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { FaWhatsapp, FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaFacebookF, FaInstagram, FaPhoneAlt } from "react-icons/fa";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function Navbar() {
@@ -32,10 +32,9 @@ export default function Navbar() {
           {/* Right Side */}
           <div className="flex items-center gap-2 md:gap-3">
 
-            {/* Social Icons (hidden on very small screens) */}
+            {/* Social Icons */}
             <div className="hidden sm:flex items-center gap-2">
 
-              {/* Facebook */}
               <a
                 href="https://facebook.com"
                 target="_blank"
@@ -45,7 +44,6 @@ export default function Navbar() {
                 <FaFacebookF size={14} />
               </a>
 
-              {/* Instagram */}
               <a
                 href="https://instagram.com"
                 target="_blank"
@@ -56,9 +54,17 @@ export default function Navbar() {
               </a>
             </div>
 
-            {/* WhatsApp (always visible) */}
+            {/* Call Button ✅ */}
             <a
-              href="https://wa.me/919999999999"
+              href="tel:+91 8921277670"
+              className="flex items-center justify-center bg-white/10 hover:bg-green-500 text-white p-2.5 md:p-3 rounded-full transition-all duration-300 hover:scale-110 shrink-0"
+            >
+              <FaPhoneAlt size={14} />
+            </a>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/91 9188330605"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center bg-white/10 hover:bg-[#1ebe5d] text-white p-2.5 md:p-3 rounded-full transition-all duration-300 hover:scale-110 shrink-0"
@@ -112,7 +118,10 @@ export default function Navbar() {
               <a href="https://instagram.com" target="_blank" className="text-white">
                 <FaInstagram size={18} />
               </a>
-              <a href="https://wa.me/919999999999" target="_blank" className="text-white">
+              <a href="tel:+91 8921277670" className="text-white">
+                <FaPhoneAlt size={18} />
+              </a>
+              <a href="https://wa.me/91 9188330605" target="_blank" className="text-white">
                 <FaWhatsapp size={18} />
               </a>
             </div>
