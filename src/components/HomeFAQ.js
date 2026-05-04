@@ -6,24 +6,29 @@ import { ChevronDownIcon } from "@heroicons/react/24/solid";
 const faqs = [
   {
     question:
-      "What types of interior projects do you handle in Trivandrum?",
+      "How much does interior design cost in Trivandrum?",
     answer:
-      "We work on residential, commercial, renovation, and remodelling projects, offering integrated design and execution services tailored to each space.",
+      "Costs vary by scope. A standard 2BHK interior design package in Trivandrum typically starts from ₹3.5–5 lakh for design + execution. Renovation and full fit-out projects range from ₹7–20 lakh depending on materials, area, and finishes. We provide a detailed, itemised estimate after a free site visit.",
   },
   {
-    question: "Do you handle both design and execution?",
+    question: "How long does an interior design project take?",
     answer:
-      "Yes. Our studio manages design, planning, coordination, and execution as a continuous process to maintain clarity and quality.",
+      "A standard 2BHK fit-out takes 45–75 days from design approval to handover. Renovation projects vary based on structural changes — typically 30–90 days. We provide a project timeline before work begins.",
   },
   {
-    question: "When should I contact an interior designer?",
+    question: ": Do you provide a 3D visualisation before starting?",
     answer:
-      "Ideally, before construction or renovation begins. Early involvement helps improve planning, budgeting, and execution outcomes.",
+      "Yes. Every project begins with photorealistic 3D renders so you can see exactly how your space will look before any physical work starts. Revisions are included in the design phase.",
   },
   {
-    question: "Do you take projects outside Trivandrum?",
+    question: "What areas of Trivandrum do you serve?",
     answer:
-      "Our primary focus is Trivandrum, but select projects may be considered based on scope and requirements.",
+      "We serve all areas of Trivandrum including Pattom, Kazhakuttom, Technopark, Kowdiar, Vazhuthacaud, Vattiyoorkavu, Thiruvallam, and surrounding regions.",
+  },
+  {
+    question: "Do you handle both design and construction?",
+    answer:
+      "Yes. EDAM is an end-to-end studio. We handle design, 3D visualisation, construction coordination, MEP services, and post-construction handover — all under one roof.",
   },
 ];
 

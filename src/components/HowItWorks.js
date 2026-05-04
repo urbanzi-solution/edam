@@ -18,29 +18,29 @@ export default function HowItWorks() {
       <div className="relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6 items-stretch">
 
         <Step
-          title="Discovery & Brief"
-          text="We dive into your vision, goals, and requirements to understand what truly matters."
+          title="Design & 3D Visualisation "
+          text=" You see your home before a single wall is touched"
           icon={<LightBulbIcon className="w-7 h-7 text-black" />}
           active={false}
         />
 
         <Step
-          title="Concept & Planning"
-          text="Creating layouts, mood boards, and concepts to visualize the direction."
+          title="Step 3	Approval & Planning "
+          text="Materials, costs, and timelines locked before work begins"
           icon={<ClipboardDocumentListIcon className="w-7 h-7 text-black" />}
           active={true}
         />
 
         <Step
-          title="3D Modeling"
-          text="Transforming concepts into detailed 3D models and realistic visuals."
+          title="Execution"
+          text="Our team coordinates construction and fit-out on site"
           icon={<CubeTransparentIcon className="w-7 h-7 text-black" />}
           active={false}
         />
 
         <Step
-          title="Delivery & Review"
-          text="Final high-quality visuals delivered for presentation and approvals."
+          title="Handover "
+          text=" Snagging, cleaning, and final walk through. Your home, ready to live in"
           icon={<StarIcon className="w-7 h-7 text-black" />}
           active={true}
         />

@@ -37,32 +37,32 @@ export default function Services() {
 
             <ServiceCard
               icon={<PlayCircleIcon />}
-              title="Interior Visualization"
-              desc="Showcase lighting, textures, and atmosphere of spaces before construction begins."
+              title="Interior Design & Fit-Out "
+              desc="Full room-by-room design with 3D visualisation and execution"
               light
               delay={0}
             />
 
             <ServiceCard
               icon={<CubeIcon />}
-              title="3D Modeling & Post-Production"
-              desc="From accurate models to polished final renders."
+              title="Home Renovation "
+              desc="Structural and aesthetic upgrades with fixed timelines"
               gold
               delay={0.1}
             />
 
             <ServiceCard
               icon={<FilmIcon />}
-              title="3D Animation & Walkthroughs"
-              desc="Step inside the project with cinematic presentations."
+              title="MEP Services "
+              desc="Electrical, plumbing, and mechanical coordination by certified engineers"
               gold
               delay={0.2}
             />
 
             <ServiceCard
               icon={<HomeIcon />}
-              title="Exterior Visualization"
-              desc="Bring facades, landscapes, and master plans to life with photorealistic renders."
+              title="Construction Coordination "
+              desc="We manage contractors, timelines, and quality on site"
               light
               delay={0.3}
             />
@@ -91,11 +91,11 @@ export default function Services() {
                 <ViewfinderCircleIcon className="w-8 h-8 mb-5" />
 
                 <h3 className="font-semibold text-lg">
-                  VR / AR Experiences
+                 Post-Construction 
                 </h3>
 
                 <p className="text-sm text-black/70 mt-2 leading-relaxed">
-                  Immersive tools for interactive project exploration.
+                  Snagging, deep cleaning, and final handover
                 </p>
               </div>
 

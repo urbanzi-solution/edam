@@ -49,19 +49,17 @@ export default function WhoAreWe() {
           <div className="flex flex-col gap-4 w-full">
             <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-5 py-4 text-white text-center">
               <p className="text-[13px] leading-relaxed">
-                We are a creative studio specializing in architectural visualization and 3D design.
+                We work on homes across Trivandrum — from apartments in Pattom and villas in Kazhakuttom to full renovations in Technopark-adjacent residential areas.
               </p>
             </div>
             <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-5 py-4 text-white">
               <p className="text-[13px] leading-relaxed">
-                Our mission is to transform ideas into compelling visual narratives that inspire
-                clients, investors, and future homeowners.
+                EDAM is a Trivandrum-based interior design studio that handles every stage of your project — from the first 3D concept to the final coat of paint.
               </p>
             </div>
             <div className="backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-5 py-4 text-white">
               <p className="text-[13px] leading-relaxed">
-                Driven by precision and realism, we craft visuals that not only illustrate spaces
-                but evoke emotion and atmosphere.
+                 Unlike studios that hand over drawings and disappear, we stay involved through construction coordination, MEP planning, and post-construction snagging.
               </p>
             </div>
           </div>
@@ -132,21 +130,19 @@ export default function WhoAreWe() {
           {/* Glass cards — desktop absolute positions */}
           <div className="absolute left-1/2 top-1/3 -translate-x-1/2 -translate-y-1/2 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-6 py-4 max-w-60 text-center text-white z-20">
             <p className="text-sm leading-relaxed">
-              We are a creative studio specializing in architectural visualization and 3D design.
+              We work on homes across Trivandrum — from apartments in Pattom and villas in Kazhakuttom to full renovations in Technopark-adjacent residential areas.
             </p>
           </div>
 
           <div className="absolute left-[15%] bottom-50 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-4 py-3 max-w-60 text-white z-20">
             <p className="text-sm leading-relaxed">
-              Our mission is to transform ideas into compelling visual narratives that inspire
-              clients, investors, and future homeowners.
+              EDAM is a Trivandrum-based interior design studio that handles every stage of your project — from the first 3D concept to the final coat of paint.
             </p>
           </div>
 
           <div className="absolute right-[15%] bottom-50 backdrop-blur-xl bg-white/10 border border-white/20 rounded-2xl px-4 py-3 max-w-60 text-white z-20">
             <p className="text-sm leading-relaxed">
-              Driven by precision and realism, we craft visuals that not only illustrate spaces
-              but evoke emotion and atmosphere.
+             Unlike studios that hand over drawings and disappear, we stay involved through construction coordination, MEP planning, and post-construction snagging.
             </p>
           </div>
         </div>

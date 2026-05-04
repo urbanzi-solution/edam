@@ -30,12 +30,7 @@ export default function RenovationPage() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-white/70 text-sm leading-relaxed">
-            Renovation is about rethinking what already exists. Our interior
-            renovation services focus on improving function, comfort, and
-            spatial clarity—while respecting the character and structure of the
-            original space. Based in Trivandrum, our studio approaches renovation
-            with care and restraint, helping homes and commercial interiors adapt
-            to changing needs without unnecessary disruption.
+            Modernise your existing home without starting from scratch. EDAM's renovation service covers structural upgrades, new finishes, replanning, and full fit-out — with a fixed scope and clear timeline.
           </p>
         </div>
       </section>

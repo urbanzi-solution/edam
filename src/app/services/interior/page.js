@@ -29,12 +29,7 @@ export default function ConstructionPage() {
           </h1>
 
           <p className="mt-6 max-w-xl md:max-w-2xl text-white/70 text-sm md:text-base leading-relaxed">
-            Interior construction is where planning meets reality. Our
-            construction coordination services focus on translating approved
-            designs into built interiors with accuracy, control, and consistency.
-            Based in Trivandrum, our studio manages interior-related construction
-            activities to ensure alignment with design intent, timelines, and
-            material specifications.
+            Hire EDAM as your construction coordinator and stop spending your days chasing contractors, resolving disputes, and worrying about quality. We handle it — so you don't have to.
           </p>
         </div>
       </section>

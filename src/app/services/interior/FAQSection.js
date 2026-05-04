@@ -8,19 +8,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Are you a construction company?",
+      question: "I already have a contractor. Can EDAM just manage the coordination?",
       answer:
-        "No. We provide interior construction coordination to ensure execution aligns with approved designs.",
+        "Yes. We can come in as a third-party coordinator and supervisor, even if you have your own contractor. We provide an independent quality check and keep the project on timeline.",
     },
     {
-      question: "Do you supervise on-site work?",
+      question: "What is your fee for construction coordination?",
       answer:
-        "Yes. Site supervision and quality checks are part of our construction coordination process.",
+        "Coordination fees start from ₹50,000 for small projects and are typically 8–12% of project cost for larger builds. We provide a fixed coordination fee in writing before we start.",
     },
     {
-      question: "How do you manage timelines during construction?",
+      question: "How do you handle disputes between contractors?",
       answer:
-        "Execution is planned in stages with sequencing and coordination across teams.",
+        "We act as the neutral project authority. All contractor communications go through EDAM — you are not copied on every argument. Problems are resolved at our level.",
+    },
+     {
+      question: "Can EDAM coordinate both interior and civil (structural) work simultaneously?",
+      answer:
+        "Yes. We coordinate all trades — civil, interior, MEP, painting — as a single schedule. This prevents the most common source of delays: one trade waiting on another.",
+    },
+     {
+      question: "How often will I get updates on my project?",
+      answer:
+        "You receive weekly written updates with photos or a short video walkthrough. For critical milestones, we call immediately. You are never in the dark.",
     },
   ];
 

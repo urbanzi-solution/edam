@@ -8,19 +8,34 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Do you follow specific interior design styles?",
+      question: "What is included in an interior design package from EDAM?",
       answer:
-        "Our designs respond to space, function, and context rather than fixed styles or trends.",
+        "Our standard package includes: initial consultation, concept design, 3D visualisation (2 rounds of revisions), material selection, bill of quantities, contractor coordination, site supervision, and post-completion snagging. We do not disappear after handing over drawings.",
     },
     {
-      question: "How involved is the client in design decisions?",
+      question: "How long does a 2BHK interior project take in Trivandrum?",
       answer:
-        "Clients are involved at key stages to ensure the design reflects their needs and preferences.",
+        "Typically 45–75 days from design approval to handover. The design phase takes 2–3 weeks. Execution (civil, carpentry, electrical, painting) takes 5–8 weeks. We provide a detailed milestone schedule before work starts.",
     },
     {
-      question: "Do you handle custom furniture and detailing?",
+      question: "Can I choose my own materials or furniture?",
       answer:
-        "Yes. Custom and modular elements are coordinated as part of the design and fit-out process.",
+        "Yes. We present curated options within your budget, but client preferences always take priority. We have sourcing relationships in Trivandrum and can also work with materials you have already purchased.",
+    },
+     {
+      question: "Do you handle only design, or also the physical work?",
+      answer:
+        "We handle both. EDAM manages the complete fit-out — civil, carpentry, electrical, plumbing, painting, and furniture placement. You deal with one team throughout.",
+    },
+     {
+      question: "What if I want changes after seeing the 3D visualisation?",
+      answer:
+        "Two rounds of revisions are included in the design phase at no extra charge. Additional revisions are billed at ₹2,000–5,000 per round depending on scope.",
+    },
+     {
+      question: "Do you take on small projects — single rooms or just kitchens?",
+      answer:
+        "Yes. We take on individual room makeovers (bedrooms, kitchens, bathrooms) as well as full-home projects. Minimum project value is ₹75,000.",
     },
   ];
 

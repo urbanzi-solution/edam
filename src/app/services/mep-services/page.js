@@ -29,10 +29,7 @@ export default function MEPServicesPage() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-white/70 text-sm leading-relaxed">
-            Mechanical, electrical, and plumbing systems form the functional
-            backbone of every interior space. Our MEP services focus on integrating
-            these systems seamlessly within interior layouts—ensuring performance,
-            safety, and efficiency without compromising design intent.
+            Mechanical, Electrical, and Plumbing (MEP) systems are the invisible backbone of every well-built home. EDAM plans, coordinates, and supervises MEP works to comply with Indian standards — no improvised wiring, no leaking pipes.
           </p>
         </div>
       </section>

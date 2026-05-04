@@ -63,10 +63,10 @@ const moveY = useSpring(rawY, {
               duration: 0.8,
               ease: "easeOut",
             }}
-            className="text-4xl md:text-6xl font-light leading-tight tracking-wide text-white"
+            className="text-4xl md:text-5xl font-light leading-tight tracking-wide text-white"
           >
-            Discover Our <br />
-            <span className="text-white/90">Design Journey</span>
+            We're EDAM —Trivandrum's Interior Design Company  <br />
+            <span className="text-white/90">Built Around Execution</span>
           </motion.h1>
 
           <motion.p
@@ -75,10 +75,7 @@ const moveY = useSpring(rawY, {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="mt-8 text-sm md:text-base text-white/70 leading-relaxed"
           >
-            Welcome to EDAM, crafting timeless interiors that tell your story.
-            Discover a world where design meets emotion, and interiors become
-            a canvas for your unique narrative. Immerse yourself in the art of
-            interior design with EDAM.
+            Design is just the beginning. We stay with your project through construction, coordination, and handover — because that's how great interiors actually happen.
           </motion.p>
 
         </div>

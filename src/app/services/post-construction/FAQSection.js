@@ -8,19 +8,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "What does post-construction support include?",
+      question: "My builder says the home is ready. Do I still need a snagging inspection?",
       answer:
-        "It includes inspections, snag resolution, handover guidance, and aftercare support.",
+        "Always. Independent snagging by EDAM regularly finds 30–80 defects in newly completed homes in Trivandrum — ranging from minor paint issues to serious plumbing misalignments. ",
     },
     {
-      question: "How long does post-construction support last?",
+      question: "Can you do post-construction for a project that EDAM did not design?",
       answer:
-        "Support duration depends on project scope and client requirements.",
+        "Yes. Our post-construction service is available independently of whether EDAM handled the design or construction. We provide an unbiased assessment.",
     },
     {
-      question: "Do you assist with future upgrades?",
+      question: "How long does the post-construction process take?",
       answer:
-        "Yes. We provide guidance for future changes while maintaining design consistency.",
+        "Snagging inspection: 1–2 days. Defect rectification (by contractor): 3–10 days. Deep cleaning: 1–2 days. Full post-construction package: typically 7–14 days from start to key handover.",
+    },
+    {
+      question: "What is post-construction cleaning and why does it cost more than regular cleaning?",
+      answer:
+        "Construction leaves fine silica dust embedded in floors, adhesive on tiles, paint spatter on fixtures, and cement residue in bathrooms. Post-construction cleaning uses specialised chemicals and equipment — it is not comparable to regular house cleaning.",
+    },
+    {
+      question: "What if defects are found after we move in?",
+      answer:
+        "If EDAM executed the project, all defect rectifications within 12 months of handover are covered under our post-project warranty (subject to fair wear and tear). We put this in writing.",
     },
   ];
 

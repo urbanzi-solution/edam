@@ -30,13 +30,7 @@ export default function InteriorDesignPage() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-white/70 text-sm leading-relaxed">
-            Interior design is the art of shaping space to support how people live,
-            work, and move. Our interior design services focus on creating
-            environments that feel balanced, intuitive, and enduring—spaces that
-            remain relevant long after the project is complete. Based in Trivandrum,
-            our studio approaches interior design as a thoughtful process, where
-            proportion, materiality, light, and function come together with quiet
-            clarity rather than excess.
+           From photorealistic 3D plans to fully finished rooms — EDAM designs and executes complete interior fit-outs for homes and offices across Trivandrum.
           </p>
         </div>
       </section>

@@ -64,14 +64,13 @@ export default function ServicesHero() {
               Our Services
             </span>
 
-            <h1 className="mt-4 text-5xl md:text-6xl font-light leading-tight">
-              Crafting spaces <br />
-              with purpose & emotion
+            <h1 className="mt-4 text-5xl md:text-5xl font-light leading-tight">
+             Interior Design Services in Trivandrum  <br />
+            From Concept to Completion
             </h1>
 
             <p className="mt-6 text-sm text-white/70 leading-relaxed">
-              From concept to completion, EDAM delivers refined interior and
-              architectural solutions that elevate everyday living.
+              EDAM offers a full range of interior design and construction services for homes and offices in Trivandrum, Kerala. One studio. One team. No handoff to strangers.
             </p>
           </motion.div>
 

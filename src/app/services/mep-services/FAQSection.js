@@ -8,19 +8,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "Why is MEP planning important for interiors?",
+      question: "Why does MEP planning matter if my contractor can handle it?",
       answer:
-        "MEP systems directly affect safety, comfort, and functionality, and must be coordinated early.",
+        "Most home renovation problems in Kerala — water leaks, circuit failures, inadequate ventilation — trace back to MEP improvised without proper planning. An MEP-coordinated layout prevents rework, reduces material waste, and ensures your home meets safety codes.",
     },
     {
-      question: "Do you handle MEP for both homes and offices?",
+      question: "Can EDAM handle MEP for an ongoing construction project?",
       answer:
-        "Yes. We coordinate MEP services for residential and commercial interior projects.",
+        "Yes. We can join as MEP coordinators at any stage of construction — pre-slab, post-slab, or during finishing — though earlier involvement gives better results.",
     },
     {
-      question: "Are MEP services integrated with design layouts?",
+      question: "What Indian standards apply to residential MEP in Kerala?",
       answer:
-        "Yes. Electrical, plumbing, and mechanical systems are planned in alignment with interior layouts.",
+        "Key standards include IS 3764 (electrical safety), IS 1732 (copper conductors), NBC Part 8 (services), and Kerala PWD Plumbing Regulations. EDAM designs to these standards by default.",
+    },
+    {
+      question: "Do you supply MEP materials or only provide supervision?",
+      answer:
+        "We offer both: full supply-and-fix service using ISI-marked materials, or design-and-supervision only if you prefer your own procurement.",
+    },
+    {
+      question: "How long does MEP work take for a 2BHK flat?",
+      answer:
+        "In a new build: 7–14 days for rough-in phase. In a renovation: 5–10 days. We schedule MEP work to align with civil and carpentry milestones.",
     },
   ];
 

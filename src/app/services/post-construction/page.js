@@ -29,11 +29,7 @@ export default function PostConstructionSupportPage() {
           </h1>
 
           <p className="mt-6 max-w-2xl text-white/70 text-sm leading-relaxed">
-            The completion of construction is not the end of an interior
-            project—it is the beginning of daily use. Our post-construction
-            support services focus on ensuring that completed interiors
-            transition smoothly from execution to occupancy, with clarity,
-            reliability, and long-term usability.
+            Construction is done. But is your home actually ready to move in? EDAM's post-construction service catches every defect, cleans every surface, and ensures your home is handed over the way it should have been from day one.
           </p>
         </div>
       </section>

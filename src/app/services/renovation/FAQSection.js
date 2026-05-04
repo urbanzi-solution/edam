@@ -8,19 +8,29 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How long does an interior renovation in Trivandrum usually take?",
+      question: "What is the difference between renovation and remodelling?",
       answer:
-        "Timelines depend on scope and site conditions. Partial renovations may take weeks, while larger projects follow phased schedules.",
+        "Renovation refers to restoring or upgrading an existing space — new tiles, fresh paint, updated fixtures, improved layouts. Remodelling involves structural changes like removing walls or changing room functions. EDAM handles both, and our initial site visit will identify which approach your home needs.",
     },
     {
-      question: "Can renovation be done while the space is occupied?",
+      question: "Can I stay in my home during a renovation?",
       answer:
-        "Yes. Phased execution can be planned to minimize disruption.",
+        "For partial renovations (one room at a time), yes — we plan the work sequence to minimise disruption. For full-home renovations involving structural work, we recommend vacating for 3–6 weeks.",
     },
     {
-      question: "Do you assess existing structures before renovation?",
+      question: "How do you prevent renovation costs from exceeding the budget?",
       answer:
-        "Yes. Existing layouts, services, and constraints are reviewed before any work begins.",
+        "We lock a detailed Bill of Quantities (BOQ) before work begins. No work outside the agreed scope is started without written approval. We also maintain a 5–10% contingency buffer in all renovation estimates.",
+    },
+     {
+      question: "Do you handle government approvals for structural changes?",
+      answer:
+        "For structural work requiring permits, we assist with documentation and liaise with the relevant Kerala local body authority. Permit fees are passed through at cost.",
+    },
+     {
+      question: "What areas of Trivandrum do you handle renovation projects in?",
+      answer:
+        "We cover all areas including Pattom, Kazhakuttom, Kowdiar, Vazhuthacaud, Vattiyoorkavu, Technopark vicinity, Thiruvallam, Attingal, and Neyyattinkara.",
     },
   ];
 
