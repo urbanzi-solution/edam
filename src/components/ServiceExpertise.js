@@ -11,7 +11,7 @@ const services = [
     title: "CONSTRUCTION",
     desc: "Interior construction is where planning meets reality. Our construction coordination services focus on translating approved designs into built interiors with accuracy, control, and consistency.",
     img: "/who-01.jpg",
-    link: "/services/interior",
+    link: "/services/construction",
   },
   {
     id: "02",

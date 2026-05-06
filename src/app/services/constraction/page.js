@@ -2,9 +2,9 @@ import Image from "next/image";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "Interior Construction Coordination Services in Trivandrum",
+  title: "Construction Coordination Title	Construction Coordination Services in Trivandrum | EDAM Design Studio",
   description:
-    "Interior construction coordination services in Trivandrum ensuring accurate execution, quality control, and alignment with design intent.",
+    "Professional construction coordination for interior projects in Trivandrum. EDAM ensures quality, timeline control and cost accountability at every stage.",
 };
 
 export default function ConstructionPage() {

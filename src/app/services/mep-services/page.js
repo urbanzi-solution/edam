@@ -2,9 +2,9 @@ import Image from "next/image";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "MEP Services for Interior Projects in Trivandrum",
+  title: "MEP Services for Homes & Offices in Trivandrum | EDAM Studio",
   description:
-    "Mechanical, Electrical & Plumbing services for interior projects in Trivandrum, ensuring performance, safety, and seamless integration with interior design.",
+    "Mechanical, electrical and plumbing services for residential and commercial projects in Trivandrum. Compliant with NBC and IS codes. Contact EDAM today.",
 };
 
 export default function MEPServicesPage() {

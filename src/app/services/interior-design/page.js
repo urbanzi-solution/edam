@@ -3,9 +3,9 @@ import FAQSection from "./FAQSection";
 
 
 export const metadata = {
-  title: "Interior Design & Fit-Out Services in Trivandrum",
+  title: "Interior Design / Fit-Out Title	Interior Design & Fit-Out Services in Trivandrum | EDAM",
   description:
-    "Interior design and fit-out services in Trivandrum focused on clarity, material quality, spatial balance, and long-term relevance.",
+    "Complete interior design and fit-out services in Trivandrum. From concept to execution — kitchens, bedrooms, living rooms. Get a free quote from EDAM.",
 };
 
 export default function InteriorDesignPage() {

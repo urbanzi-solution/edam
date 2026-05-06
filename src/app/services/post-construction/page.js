@@ -2,9 +2,9 @@ import Image from "next/image";
 import FAQSection from "./FAQSection";
 
 export const metadata = {
-  title: "Post-Construction Interior Support Services in Trivandrum",
+  title: "Post-Construction Title	Post-Construction Services in Trivandrum | Snagging, Cleaning & Handover — EDAM",
   description:
-    "Post-construction interior support services in Trivandrum ensuring smooth handover, snag resolution, aftercare, and long-term usability.",
+    "EDAM's post-construction service includes snagging, deep cleaning, furniture placement, and home handover in Trivandrum. Your home, ready to live in.",
 };
 
 export default function PostConstructionSupportPage() {

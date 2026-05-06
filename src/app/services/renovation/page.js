@@ -3,9 +3,9 @@ import FAQSection from "./FAQSection";
 
 
 export const metadata = {
-  title: "Interior Renovation Services in Trivandrum",
+  title: "Renovation Title	Home Renovation Services in Trivandrum, Kerala | EDAM Design Studio",
   description:
-    "Interior renovation services in Trivandrum focused on improving function, comfort, and spatial clarity while respecting existing structures.",
+    "Planning a home renovation in Trivandrum? EDAM offers full-scope renovation services with fixed timelines and transparent costs. Free site visit included.",
 };
 
 export default function RenovationPage() {
