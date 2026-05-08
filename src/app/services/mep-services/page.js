@@ -14,7 +14,7 @@ export default function MEPServicesPage() {
       
       <section className="relative h-[70vh] flex items-center">
         <Image
-          src="/mep-hero.jpg"
+          src="/mep-hero.webp"
           alt="MEP services for interior projects"
           fill
           priority
@@ -67,7 +67,7 @@ export default function MEPServicesPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/plumbing.jpg"
+            src="/plumbing.webp"
             alt="Plumbing and sanitary coordination"
             fill
             className="object-cover"
@@ -109,7 +109,7 @@ export default function MEPServicesPage() {
       
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/mep.jpg"
+            src="/mep.webp"
             alt="Integrated MEP systems"
             fill
             className="object-cover"

@@ -15,7 +15,7 @@ export default function InteriorDesignPage() {
      
       <section className="relative h-[70vh] flex items-center">
         <Image
-          src="/interiorhero.jpg"
+          src="/interiorhero.webp"
           alt="Interior design and fit-out services in Trivandrum"
           fill
           priority
@@ -68,7 +68,7 @@ export default function InteriorDesignPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior001.jpg"
+            src="/interior001.webp"
             alt="Interior material and detail craftsmanship"
             fill
             className="object-cover"
@@ -99,7 +99,7 @@ export default function InteriorDesignPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior002.jpg"
+            src="/interior002.webp"
             alt="Timeless interior spaces"
             fill
             className="object-cover"

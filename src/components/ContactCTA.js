@@ -20,7 +20,7 @@ export default function ContactCTA() {
             className="relative h-[320px] sm:h-[420px] lg:h-[520px]"
           >
             <Image
-              src="/chair.jpg"
+              src="/chair.webp"
               alt="Interior design chair"
               fill
               className="object-cover"

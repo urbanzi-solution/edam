@@ -14,7 +14,7 @@ export default function PostConstructionSupportPage() {
       
       <section className="relative h-[70vh] flex items-center">
         <Image
-          src="/mep-hero.jpg"
+          src="/mep-hero.webp"
           alt="Post-construction interior support services in Trivandrum"
           fill
           priority
@@ -56,7 +56,7 @@ export default function PostConstructionSupportPage() {
        
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/011.jpg"
+            src="/011.webp"
             alt="Final inspection and snag resolution"
             fill
             className="object-cover"
@@ -87,7 +87,7 @@ export default function PostConstructionSupportPage() {
 
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/systems.jpg"
+            src="/systems.webp"
             alt="Interior aftercare and maintenance guidance"
             fill
             className="object-cover"

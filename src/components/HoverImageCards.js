@@ -7,25 +7,25 @@ const cards = [
   {
     id: 1,
     title: "Interior Design",
-    img: "/img1.jpg",
+    img: "/img1.webp",
     link: "/services/interior-design",
   },
   {
     id: 2,
     title: "Living Areas",
-    img: "/img2.jpg",
+    img: "/img2.webp",
     link: "/services/construction",
   },
   {
     id: 3,
     title: "Office Areas",
-    img: "/img3.jpg",
+    img: "/img3.webp",
     link: "/services/mep",
   },
   {
     id: 4,
     title: "Dining Areas",
-    img: "/img4.jpg",
+    img: "/img4.webp",
     link: "/services/renovation",
   },
 ];

@@ -50,7 +50,7 @@ export default function HeroSection() {
         className="absolute inset-0"
       >
         <Image
-          src="/firsthero.jpg"
+          src="/firsthero.webp"
           alt="Interior Design"
           fill
           priority

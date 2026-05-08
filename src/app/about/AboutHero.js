@@ -43,7 +43,7 @@ const moveY = useSpring(rawY, {
         className="absolute inset-0"
       >
         <Image
-          src="/hero.jpg"
+          src="/hero.webp"
           alt="EDAM Interior Design Studio"
           fill
           priority

@@ -39,7 +39,7 @@ export default function ServicesHero() {
         className="absolute inset-0"
       >
         <Image
-          src="/zero.jpg"
+          src="/zero.webp"
           alt="Interior services"
           fill
           priority

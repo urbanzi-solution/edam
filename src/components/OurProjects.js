@@ -5,17 +5,17 @@ import Image from "next/image";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 
 const initialProjects = [
-  { title: "Lumiere Residences", img: "/projects/p1.jpg", category: "Residential" },
-  { title: "Elysium Villas", img: "/projects/p2.jpg", category: "Villa" },
+  { title: "Lumiere Residences", img: "/projects/p1.webp", category: "Residential" },
+  { title: "Elysium Villas", img: "/projects/p2.webp", category: "Villa" },
   {
     title: "The Grand Maison",
-    img: "/projects/p3.jpg",
+    img: "/projects/p3.webp",
     category: "Luxury",
     desc: "Showcase lighting, textures, and atmosphere of spaces before construction begins.",
   },
-  { title: "Serenity Villas", img: "/projects/p4.jpg", category: "Villa" },
-  { title: "Arbor Estate", img: "/projects/p5.jpg", category: "Estate" },
-  { title: "Nova Heights", img: "/projects/p6.jpg", category: "Commercial" },
+  { title: "Serenity Villas", img: "/projects/p4.webp", category: "Villa" },
+  { title: "Arbor Estate", img: "/projects/p5.webp", category: "Estate" },
+  { title: "Nova Heights", img: "/projects/p6.webp", category: "Commercial" },
 ];
 
 export default function OurProjects() {

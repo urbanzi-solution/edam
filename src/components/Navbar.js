@@ -24,8 +24,8 @@ export default function Navbar() {
             <Link href="/" className="hover:text-white transition">Home</Link>
             <Link href="/about" className="hover:text-white transition">About</Link>
             <Link href="/services" className="hover:text-white transition">Services</Link>
-            <Link href="/#" className="hover:text-white transition">Projects</Link>
-            <Link href="/#" className="hover:text-white transition">Blog</Link>
+            <Link href="/projects" className="hover:text-white transition">Projects</Link>
+            <Link href="/blog" className="hover:text-white transition">Blog</Link>
             <Link href="/contact" className="hover:text-white transition">Contact</Link>
           </nav>
 
@@ -45,7 +45,7 @@ export default function Navbar() {
               </a>
 
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/edam.designstudio?igsh=MTI5cGMwMTZud2Y2YQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-white/10 hover:bg-pink-500 text-white p-2.5 rounded-full transition-all duration-300 hover:scale-110"
@@ -64,7 +64,7 @@ export default function Navbar() {
 
             {/* WhatsApp */}
             <a
-              href="https://wa.me/91 9188330605"
+              href="https://wa.me/9188330605"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center bg-white/10 hover:bg-[#1ebe5d] text-white p-2.5 md:p-3 rounded-full transition-all duration-300 hover:scale-110 shrink-0"
@@ -100,10 +100,10 @@ export default function Navbar() {
             <Link href="/services" onClick={() => setIsOpen(false)} className="block hover:text-white">
               Services
             </Link>
-            <Link href="/#" onClick={() => setIsOpen(false)} className="block hover:text-white">
+            <Link href="/projects" onClick={() => setIsOpen(false)} className="block hover:text-white">
               Projects
             </Link>
-            <Link href="/#" onClick={() => setIsOpen(false)} className="block hover:text-white">
+            <Link href="/blog" onClick={() => setIsOpen(false)} className="block hover:text-white">
               Blog
             </Link>
             <Link href="/contact" onClick={() => setIsOpen(false)} className="block hover:text-white">
@@ -121,7 +121,7 @@ export default function Navbar() {
               <a href="tel:+91 8921277670" className="text-white">
                 <FaPhoneAlt size={18} />
               </a>
-              <a href="https://wa.me/91 9188330605" target="_blank" className="text-white">
+              <a href="https://wa.me/ 9188330605" target="_blank" className="text-white">
                 <FaWhatsapp size={18} />
               </a>
             </div>

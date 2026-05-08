@@ -53,7 +53,7 @@ export default function StatsSection() {
             className="relative w-full h-[520px]"
           >
             <Image
-              src="/interior.jpg"
+              src="/interior.webp"
               alt="Interior design"
               fill
               priority

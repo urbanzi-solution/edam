@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 export default function ServicesGrid() {
   const services = [
-    { id: "01", title: "Design", link: "/services/design" },
-    { id: "02", title: "Concept", link: "/services/concept" },
-    { id: "03", title: "Planning", link: "/services/planning" },
-    { id: "04", title: "3D Visual", link: "/services/3d-visual" },
+    { id: "01", title: "Design", link: "#" },
+    { id: "02", title: "Concept", link: "#" },
+    { id: "03", title: "Planning", link: "#" },
+    { id: "04", title: "3D Visual", link: "#" },
   ];
 
   return (
@@ -26,7 +26,7 @@ export default function ServicesGrid() {
             className="relative h-[600px]"
           >
             <Image
-              src="/chair.jpg"  
+              src="/chair.webp"  
               alt="Interior design"
               fill
               className="object-cover"

@@ -14,7 +14,7 @@ export default function RemodellingPage() {
       
       <section className="relative h-[70vh] flex items-center">
         <Image
-          src="/interiorhero.jpg"
+          src="/interiorhero.webp"
           alt="Interior remodelling services in Trivandrum"
           fill
           priority
@@ -70,7 +70,7 @@ export default function RemodellingPage() {
         
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior04.jpg"
+            src="/interior04.webp"
             alt="Interior space reconfiguration"
             fill
             className="object-cover"
@@ -102,7 +102,7 @@ export default function RemodellingPage() {
       
         <div className="relative w-full h-[420px] rounded-2xl overflow-hidden">
           <Image
-            src="/interior03.jpg"
+            src="/interior03.webp"
             alt="Carefully executed interior remodelling"
             fill
             className="object-cover"
