@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   PlayCircleIcon,
   CubeIcon,
@@ -35,37 +36,45 @@ export default function Services() {
           {/* LEFT GRID */}
           <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-6">
 
-            <ServiceCard
-              icon={<PlayCircleIcon />}
-              title="Interior Design & Fit-Out "
-              desc="Full room-by-room design with 3D visualisation and execution"
-              light
-              delay={0}
-            />
+            <Link href="/services/interior-design" className="block">
+              <ServiceCard
+                icon={<PlayCircleIcon />}
+                title="Interior Design & Fit-Out "
+                desc="Full room-by-room design with 3D visualisation and execution"
+                light
+                delay={0}
+              />
+            </Link>
 
-            <ServiceCard
-              icon={<CubeIcon />}
-              title="Home Renovation "
-              desc="Structural and aesthetic upgrades with fixed timelines"
-              gold
-              delay={0.1}
-            />
+            <Link href="/services/renovation" className="block">
+              <ServiceCard
+                icon={<CubeIcon />}
+                title="Home Renovation "
+                desc="Structural and aesthetic upgrades with fixed timelines"
+                gold
+                delay={0.1}
+              />
+            </Link>
 
-            <ServiceCard
-              icon={<FilmIcon />}
-              title="MEP Services "
-              desc="Electrical, plumbing, and mechanical coordination by certified engineers"
-              gold
-              delay={0.2}
-            />
+            <Link href="/services/mep-services" className="block">
+              <ServiceCard
+                icon={<FilmIcon />}
+                title="MEP Services "
+                desc="Electrical, plumbing, and mechanical coordination by certified engineers"
+                gold
+                delay={0.2}
+              />
+            </Link>
 
-            <ServiceCard
-              icon={<HomeIcon />}
-              title="Construction Coordination "
-              desc="We manage contractors, timelines, and quality on site"
-              light
-              delay={0.3}
-            />
+            <Link href="/services/construction" className="block">
+              <ServiceCard
+                icon={<HomeIcon />}
+                title="Construction Coordination "
+                desc="We manage contractors, timelines, and quality on site"
+                light
+                delay={0.3}
+              />
+            </Link>
 
           </div>
 
@@ -84,27 +93,27 @@ export default function Services() {
               into vivid <span className="text-white">3D realities</span>.
             </div>
 
-            {/* ✅ FIXED CARD */}
-            <div className="relative bg-white text-black rounded-[32px] p-8 border border-black/10 min-h-[240px] md:min-h-[260px] flex flex-col justify-between mt-10 transition hover:-translate-y-2">
+            <Link href="/services/post-construction" className="block">
+              <div className="relative bg-white text-black rounded-[32px] p-8 border border-black/10 min-h-[240px] md:min-h-[260px] flex flex-col justify-between mt-10 transition hover:-translate-y-2">
 
-              <div>
-                <ViewfinderCircleIcon className="w-8 h-8 mb-5" />
+                <div>
+                  <ViewfinderCircleIcon className="w-8 h-8 mb-5" />
 
-                <h3 className="font-semibold text-lg">
-                 Post-Construction 
-                </h3>
+                  <h3 className="font-semibold text-lg">
+                    Post-Construction
+                  </h3>
 
-                <p className="text-sm text-black/70 mt-2 leading-relaxed">
-                  Snagging, deep cleaning, and final handover
-                </p>
+                  <p className="text-sm text-black/70 mt-2 leading-relaxed">
+                    Snagging, deep cleaning, and final handover
+                  </p>
+                </div>
+
+                <div className="absolute top-6 right-6 w-10 h-10 rounded-full border border-black/20 flex items-center justify-center">
+                  <ArrowUpRightIcon className="w-5 h-5 text-black/70" />
+                </div>
+
               </div>
-
-              {/* ✅ FIXED ICON */}
-              <div className="absolute top-6 right-6 w-10 h-10 rounded-full border border-black/20 flex items-center justify-center">
-                <ArrowUpRightIcon className="w-5 h-5 text-black/70" />
-              </div>
-
-            </div>
+            </Link>
 
           </motion.div>
 
@@ -114,6 +123,8 @@ export default function Services() {
   );
 }
 
+
+/* ServiceCard Component */
 
 function ServiceCard({ icon, title, desc, light, gold, delay }) {
   return (
