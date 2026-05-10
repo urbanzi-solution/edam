@@ -3,7 +3,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
- 
+  title: "EDAM | Interior Design & Visualization Studio",
+  description:
+    "EDAM is a professional interior design and architectural visualization studio delivering residential and commercial projects with precision and creativity.",
 
   icons: {
     icon: [
@@ -15,8 +17,9 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Your Website",
-    description: "Your website description",
+    title: "EDAM | Interior Design Studio",
+    description:
+      "Professional interior design, 3D visualization, and execution services.",
     images: ["/og-image.jpg"],
   },
 
@@ -29,12 +32,52 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  // ✅ Organization Schema
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "EDAM",
+    url: "https://yourwebsite.com",
+    logo: "https://yourwebsite.com/logo.png",
+    sameAs: [
+      "https://instagram.com/yourprofile",
+    ],
+  };
+
+  // ✅ Website Schema
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "EDAM",
+    url: "https://yourwebsite.com",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://yourwebsite.com/?s={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <html lang="en">
       <body className="bg-black">
         <Navbar />
         {children}
         <Footer />
+
+        {/* ✅ Site-wide Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(organizationSchema),
+          }}
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(websiteSchema),
+          }}
+        />
       </body>
     </html>
   );

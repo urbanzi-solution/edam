@@ -1,4 +1,5 @@
-import UnderDevelopmentPage from "@/components/UnderDevelopmentPage";
+import ProjectDevelopmentPage from "@/components/ProjectDevelopmentPage";
+
 export default function ProjectsPage() {
-  return <UnderDevelopmentPage />;
-}   
+  return <ProjectDevelopmentPage />;
+}
