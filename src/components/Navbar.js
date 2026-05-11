@@ -36,7 +36,7 @@ export default function Navbar() {
             <div className="hidden sm:flex items-center gap-2">
 
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/14ghUf41Qsw/?mibextid=wwXIfr"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-white/10 hover:bg-blue-600 text-white p-2.5 rounded-full transition-all duration-300 hover:scale-110"
@@ -112,10 +112,10 @@ export default function Navbar() {
 
             {/* Mobile Social Icons */}
             <div className="flex gap-4 pt-4">
-              <a href="https://facebook.com" target="_blank" className="text-white">
+              <a href="https://www.facebook.com/share/14ghUf41Qsw/?mibextid=wwXIfr" target="_blank" className="text-white">
                 <FaFacebookF size={18} />
               </a>
-              <a href="https://instagram.com" target="_blank" className="text-white">
+              <a href="https://www.instagram.com/edam.designstudio?igsh=MTI5cGMwMTZud2Y2YQ==" target="_blank" className="text-white">
                 <FaInstagram size={18} />
               </a>
               <a href="tel:+91 8921277670" className="text-white">
