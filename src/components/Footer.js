@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import {
   EnvelopeIcon,
   PhoneIcon,
@@ -14,9 +15,16 @@ export default function Footer() {
 
         {/* Brand */}
         <div>
-          <h2 className="text-3xl font-extrabold tracking-wide">
-            <span className="text-[#d6b98c]">EDAM</span>
-          </h2>
+          <Link href="/" className="inline-block">
+            <Image
+              src="/logo.png"   // 👉 place your logo in /public/logo.png
+              alt="EDAM Logo"
+              width={140}
+              height={50}
+              className="object-contain"
+            />
+          </Link>
+
           <p className="text-sm text-white/60 mt-4 leading-relaxed">
             Architectural visualization studio crafting immersive,
             photorealistic experiences before they’re built.
@@ -45,17 +53,22 @@ export default function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/blog" className="hover:text-white transition">
+                Blog
+              </Link>
+            </li>
+            <li>
               <Link href="/contact" className="hover:text-white transition">
                 Contact
               </Link>
             </li>
             <li>
-              <Link href="/privacy-policy" className="hover:text-white transition">
+              <Link href="/" className="hover:text-white transition">
                 Privacy Policy
               </Link>
             </li>
             <li>
-              <Link href="/terms-of-service" className="hover:text-white transition">
+              <Link href="/" className="hover:text-white transition">
                 Terms of Service
               </Link>
             </li>
